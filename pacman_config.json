@@ -1,0 +1,33 @@
+{
+    "display": {
+        "scale": 20,
+        "width": 560,
+        "height": 620,
+        "fps": 60,
+        "title": "Pacman"
+    },
+    "colors": {
+        "background": [55, 50, 60],
+        "wall": [45, 45, 75],
+        "path": [160, 170, 185],
+        "pacman": [255, 255, 0],
+        "food": [255, 220, 50],
+        "blinky": [255, 95, 95],
+        "pinky": [255, 184, 255],
+        "inky": [0, 255, 255],
+        "clyde": [255, 184, 81],
+        "weak": [27, 112, 247]
+    },
+    "gameplay": {
+        "pacman_speed": 2.5,
+        "ghost_speed": 2.5,
+        "ghost_weak_speed": 1.25,
+        "weak_duration": 300,
+        "show_ghost_paths": false
+    },
+    "scoring": {
+        "food_points": 10,
+        "bonus_points": 50,
+        "ghost_points": 200
+    }
+}
